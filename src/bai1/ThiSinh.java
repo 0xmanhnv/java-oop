@@ -61,9 +61,10 @@ public class ThiSinh {
     }
     
     public void inTT(){
-        System.out.println("------------Thong tin sinh vien--------------");
+        System.out.println("--------------------------");
         System.out.println("Ho ten: "+ this.hoTen);
         System.out.println("Ngay sinh: " + this.ngaySinh);
         System.out.println("Dia chi: " + this.diaChi);
+        System.out.println("----------------------------");
     }
 }

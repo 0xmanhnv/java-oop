@@ -67,4 +67,13 @@ public class ThiSinhKhoiA extends ThiSinh {
         System.out.println("Diem ly: " + this.diemLy);
         System.out.println("Diem hoa: " + this.diemHoa);
     }
+    public boolean thiSinhTrungTuyen(){
+        Double tongDiem = this.diemHoa + this.diemLy + this.diemToan;
+        
+        if(tongDiem > 20){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
